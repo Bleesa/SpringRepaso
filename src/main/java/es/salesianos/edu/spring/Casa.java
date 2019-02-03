@@ -34,33 +34,10 @@ public class Casa {
 		// Habitacion habitacion = (Habitacion) context.getBean("habitacionGrande");
 
 		// baño.limpiarToilet();
-		getSalon().tengoUnaMesa();
-		getBaño().limpiarToilet();
-		System.out.println(getHabitacion().getCama());
+		salon.tengoUnaMesa();
+		baño.limpiarToilet();
+		System.out.println(habitacion.getCama());
 	}
 
-	public static Baño getBaño() {
-		return baño;
-	}
-
-	public static void setBaño(Baño baño) {
-		Casa.baño = baño;
-	}
-
-	public static Salon getSalon() {
-		return salon;
-	}
-
-	public static void setSalon(Salon salon) {
-		Casa.salon = salon;
-	}
-
-	public static Habitacion getHabitacion() {
-		return habitacion;
-	}
-
-	public static void setHabitacion(Habitacion habitacion) {
-		Casa.habitacion = habitacion;
-	}
 
 }

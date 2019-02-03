@@ -14,10 +14,12 @@
     <bean id = "habitacionPequeña" class = "spring.Habitacion">
    		<property name="cama" value="individual"></property>
    </bean>
+   
     <bean id = "salon" class = "spring.Salon">
    </bean>
 
 	<context:component-scan base-package="spring" />
+	<context:annotation-config />
 
 
 </beans>
